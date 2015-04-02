@@ -17,7 +17,7 @@ from player import Player
 from ui import Ui
 
 home = os.path.expanduser("~")
-configdir = home + '/.netease-musicbox'
+configdir = home + '/.netease-msuicbox'
 if os.path.isdir(configdir) is False:
     os.mkdir(configdir)
 locale.setlocale(locale.LC_ALL, "")
